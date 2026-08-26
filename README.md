@@ -1,6 +1,6 @@
-# VectorDB — Build a Vector Database from Scratch in C++
+# VectorDB — a Vector Database using C++
 
-A fully working **Vector Database** built from scratch in C++ with a web UI.  
+A fully working **Vector Database** built in C++ with a web UI.  
 Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-side, plus a **RAG pipeline** powered by a local LLM via Ollama.
 
 
@@ -43,4 +43,3 @@ Answer
 **HNSW (Hierarchical Navigable Small World)** is the same algorithm used by Pinecone, Weaviate, Chroma, and Milvus. It builds a multilayer graph where each layer is progressively sparser — searches start at the top layer and zoom in, achieving O(log N) complexity instead of O(N) for brute force.
 
 
-MIT — use this however you want.
